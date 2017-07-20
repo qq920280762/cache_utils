@@ -1,0 +1,33 @@
+{
+  "name": "cache_utils",
+  "version": "1.0.0",
+  "description": "memory or redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq920280762/cache_utils.git"
+  },
+  "keywords": [
+    "node",
+    "cache",
+    "redis",
+    "memory"
+  ],
+  "author": "sc_gongchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qq920280762/cache_utils/issues"
+  },
+  "homepage": "https://github.com/qq920280762/cache_utils#readme",
+  "dependencies": {
+    "redis": "^2.7.1"
+  },
+  "files": [
+    "lib/",
+    "lib/stores/",
+    "index.js"
+  ]
+}
